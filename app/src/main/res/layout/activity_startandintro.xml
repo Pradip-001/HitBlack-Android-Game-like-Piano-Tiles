@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.buttonmove.startandintro"
+    android:background="#fdfcfc">
+
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:background="#ffffff"
+        android:text="PLAY"
+        android:textSize="20dp"
+        android:id="@+id/pbutton"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/instrbutton"
+        android:layout_alignStart="@+id/instrbutton"
+        android:layout_marginTop="74dp" />
+    <Button
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:background="#000000"
+        android:text="INSTRUCTIONS"
+        android:textSize="20dp"
+        android:textColor="#ffffff"
+        android:id="@+id/instrbutton"
+        android:layout_below="@+id/pbutton"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="0dp" />
+
+    <SurfaceView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/surfaceView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#060606"
+        android:layout_below="@+id/pbutton"
+        android:layout_above="@+id/instrbutton" />
+
+
+</RelativeLayout>

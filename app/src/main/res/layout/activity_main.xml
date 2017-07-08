@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="2dp"
+    tools:context="com.example.dellpc.buttonmove.MainActivity">
+
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/score"
+        android:text="SCORE: 0"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="150dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/timer"
+        android:layout_marginLeft="190dp"
+        android:text="TIMER"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="22dp"
+        android:layout_marginTop="0dp"
+        android:layout_marginLeft="390dp"
+        android:id="@+id/hscore"
+        android:text="HIGH SCORE: 0"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        />
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="600dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:layout_marginLeft="0dp"
+        android:background="#ffffff"
+        />
+    <Button
+        android:id="@+id/button1"
+        android:drawableBottom="@drawable/bordercustom"
+        android:layout_width="73dp"
+        android:layout_height="73dp"
+        android:background="#00000000"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="230dp"/>
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="90dp"
+        android:background="#ffffff"
+        android:layout_marginTop="220dp"
+        android:layout_marginLeft="170dp"
+        android:text="RETRY"
+        android:textSize="40dp"
+        android:textColor="#990000"
+        android:id="@+id/retry"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="65dp"
+        android:text="EXIT"
+        android:id="@+id/exit"
+        android:background="#ffffff"
+        android:textSize="40dp"
+        android:layout_marginTop="175dp"
+        android:layout_marginLeft="200dp"
+         />
+
+
+</RelativeLayout>

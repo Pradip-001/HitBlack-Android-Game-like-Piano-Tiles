@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.dellpc.buttonmove.intro">
+    <VideoView
+        android:layout_width="700dp"
+        android:layout_height="match_parent"
+        android:id="@+id/vintro"
+        />
+    <Button
+        android:layout_width="565dp"
+        android:layout_height="300dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="0dp"
+        android:id="@+id/startbutton"
+        android:background="#00000000"
+        android:text="tap anywhere to continue"
+        android:textSize="20dp"
+        android:textColor="#00000000"/>
+    <TextView
+        android:layout_width="170dp"
+        android:layout_height="70dp"
+        android:text="HitBlack"
+        android:textSize="40dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="200dp"
+        android:layout_marginTop="175dp"/>
+</RelativeLayout>
